@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     public function index(){
-        return 'Hi! Welcome to Laravel';
+        return 'Noora Aulia Hidayat <br>2041720046 <br>TI-2I';
     }
 }

@@ -13,6 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//PRACTICUM 1
+//no 1
 Route::get('/', function () {
-    return view('welcome');
-});
+    echo "Hi, Welcome to Laravel";
+}
+);
+//no2
+Route::get('/about', function(){
+    echo "Noora Aulia Hidayat <br>";
+    echo "2041720046 <br>";
+    echo "TI-2I";
+}
+
+)-> name('about');
+
+//no3
+Route::get('/articles/{id}', function ($id){
+    echo "This is Article page with ID: " .$id;
+}
+
+);
+

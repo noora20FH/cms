@@ -52,7 +52,7 @@ use App\Http\Controllers\ProgramController;
 //Route::get('/',[ArticleController::class,'index'])->name('article-controller');
 //no. 1
 Route::get('/', function(){
-    return 'Welcom to Tourist Destination Website';
+    return redirect('https://www.educastudio.com/');
 });
 
 //no. 2
@@ -69,9 +69,6 @@ Route::prefix('/category')->group(function(){
         return redirect('https://www.educastudio.com/category/kolak-kids-songs');
     });
 });
-
-
-
 
 
 //no3 

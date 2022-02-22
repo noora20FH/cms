@@ -14,6 +14,6 @@ class PageController extends Controller
 
     }
     public function articles($id){
-        return 'This is page with th ID: ' .id;
+        return 'This is page with th ID: '.$id;
     }
 }

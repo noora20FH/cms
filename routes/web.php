@@ -14,26 +14,32 @@ use App\Http\Controllers\PageController;
 |
 */
 
-Route::get('/page-controller',[PageController::class,'index'])->name('idx-page-controller');
+
+
 //PRACTICUM 1
 //no 1
-Route::get('/', function () {
-    echo "Hi, Welcome to Laravel";
-}
-);
+//Route::get('/', function () {
+//    echo "Hi, Welcome to Laravel";
+//}
+//);
 //no2
-Route::get('/about', function(){
-    echo "Noora Aulia Hidayat <br>";
-    echo "2041720046 <br>";
-    echo "TI-2I";
-}
+//Route::get('/about', function(){
+  //  echo "Noora Aulia Hidayat <br>";
+//echo "2041720046 <br>";
+  //  echo "TI-2I";
+//}
 
-)-> name('about');
+//)-> name('about');
 
 //no3
-Route::get('/articles/{id}', function ($id){
-    echo "This is Article page with ID: " .$id;
-}
+//Route::get('/articles/{id}', function ($id){
+//    echo "This is Article page with ID: " .$id;
+//}
 
-);
+//);
+
+//PRACTICUM 2
+Route::get('/',[PageController::class,'index']);
+Route::get('/about',[PageController::class,'about']);
+Route::get('/articles/{id}',[PageController::class,'articles']);
 

@@ -17,3 +17,4 @@ class PageController extends Controller
         return 'This is page with th ID: '.$id;
     }
 }
+

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::get('/page-controller',[PageController::class,'index'])->name('idx-page-controller');
 //PRACTICUM 1
 //no 1
 Route::get('/', function () {

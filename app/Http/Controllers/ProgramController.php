@@ -7,14 +7,14 @@ use Illuminate\Http\Request;
 class ProgramController extends Controller
 {
     public function karir(){
-        return redirect('https://www.educastudio.com/program/karir');
+        echo 'This is All About Karir';
     }
 
     public function magang(){
-        return redirect('https://www.educastudio.com/program/magang');
+        echo 'This page is the Requirements of Internship Program';
     }
 
     public function kunjunganIndustri(){
-        return redirect('https://www.educastudio.com/program/kunjungan-industri');
+        echo 'This Page is All about Industry Visits';
     }
 }

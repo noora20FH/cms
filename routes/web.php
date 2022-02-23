@@ -5,6 +5,7 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ArticleController;
+
 use App\Http\Controllers\ProgramController;
 /*
 |--------------------------------------------------------------------------
@@ -52,32 +53,32 @@ use App\Http\Controllers\ProgramController;
 //Route::get('/',[ArticleController::class,'index'])->name('article-controller');
 //no. 1
 Route::get('/', function(){
-    return redirect('https://www.educastudio.com/');
+    echo 'Hi! Welcome to Tourist Destination Website';
 });
 
 //no. 2
 Route::prefix('/category')->group(function(){
     Route::get('/marbel-edu-games', function(){
-        return redirect('https://www.educastudio.com/category/marbel-edu-games');
+        echo 'This is Marbel Edu Games Page';
     });
 
     Route::get('/riri-story-books', function(){
-        return redirect('https://www.educastudio.com/category/riri-story-books');
+        echo 'This is Riri Strory Book Page';
     });
 
     Route::get('/kolak-kids-songs', function(){
-        return redirect('https://www.educastudio.com/category/kolak-kids-songs');
+        echo 'This is Kolak Kids Songs Page';
     });
 });
 
 
 //no3 
 Route::get('news', function(){
-    return redirect('https://www.educastudio.com/news');
+    echo 'This is the news page';
 });
 
 Route::get('news/{title}', function($title){
-    return redirect('https://www.educastudio.com/news/' .$title);
+    echo "This News is about " .$title;
 });
 
 
@@ -93,5 +94,5 @@ Route::prefix('/program')->group(function(){
 
 //no.5
 Route::get('/about-us', function(){
-    return redirect('https://www.educastudio.com/about-us');
+    echo 'Noora Aulia Hidayat <br>2041720046 <br>TI-2I';
 });

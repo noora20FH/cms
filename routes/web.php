@@ -48,13 +48,11 @@ use App\Http\Controllers\ProgramController;
 //Route::get('/articles/{id}',[PageController::class,'articles']);
 
 //PRACTICUM 3
-//Route::get('/',[HomeController::class,'index'])->name('home-controller');
-//Route::get('/',[AboutController::class,'index'])->name('about-controller');
-//Route::get('/',[ArticleController::class,'index'])->name('article-controller');
+
 //no. 1
-Route::get('/', function(){
-    echo 'Hi! Welcome to Tourist Destination Website';
-});
+//Route::get('/', function(){
+ //   echo 'Hi! Welcome to Tourist Destination Website';
+//});
 
 //no. 2
 Route::prefix('/category')->group(function(){
@@ -96,3 +94,11 @@ Route::prefix('/program')->group(function(){
 Route::get('/about-us', function(){
     echo 'Noora Aulia Hidayat <br>2041720046 <br>TI-2I';
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// week3
+Route::view('/', 'shop');
+

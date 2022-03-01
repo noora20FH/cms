@@ -1,5 +1,5 @@
 @extends('layouts.shopMaster')
-@section('content')
+@section('header')
     <!-- Start Main Top -->
     <div class="main-top">
         <div class="container-fluid">
@@ -175,7 +175,8 @@
         </div>
     </div>
     <!-- End All Title Box -->
-
+@endsection
+@section('content')
     <!-- Start Shop Page  -->
     <div class="shop-box-inner">
         <div class="container">
@@ -514,6 +515,7 @@
                         </div>
                     </div>
                 </div>
+                @section('sidebar')
 				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
                     <div class="product-categori">
                         <div class="search-product">
@@ -571,6 +573,7 @@
                         </div>
                     </div>
                 </div>
+                @endsection
             </div>
         </div>
     </div>
@@ -662,8 +665,8 @@
         </div>
     </div>
     <!-- End Instagram Feed  -->
-
-
+@endsection
+@section('footer')
     <!-- Start Footer  -->
     <footer>
         <div class="footer-main">

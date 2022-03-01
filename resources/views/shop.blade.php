@@ -751,7 +751,7 @@
         </div>
     </footer>
     <!-- End Footer  -->
-
+    @endsection
     <!-- Start copyright  -->
     <div class="footer-copyright">
         <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
@@ -779,4 +779,3 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
-@endsection

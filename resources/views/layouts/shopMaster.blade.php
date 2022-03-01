@@ -14,19 +14,20 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-
+                                        <!-- {{asset('assets/css/custom.css')}} 
+                                                {{asset('assets/images/apple-touch-icon.png')}}-->
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/custom.css')}}">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -39,7 +40,27 @@
     @yield('header')
     @yield('content')
     
-    @yeald('footer')
+    @yield('footer')
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+                    
+    <!-- ALL JS FILES -->
+    <script type="text/javascript" src="{{asset('assets/js/jquery-3.2.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/popper.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <!-- ALL PLUGINS -->
+    <script type="text/javascript" src="{{asset('assets/js/jquery.superslides.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/bootstrap-select.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/inewsticker.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/bootsnav.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/images-loded.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/isotope.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/baguetteBox.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/jquery-ui.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/jquery.nicescroll.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/form-validator.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/contact-form-script.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/js/custom.js')}}"></script>
 
     
 </body>

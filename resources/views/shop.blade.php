@@ -121,17 +121,17 @@
                 <li class="cart-box">
                     <ul class="cart-list">
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="assets/images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Delica omtantur </a></h6>
                             <p>1x - <span class="price">$80.00</span></p>
                         </li>
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="assets/images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Omnes ocurreret</a></h6>
                             <p>1x - <span class="price">$60.00</span></p>
                         </li>
                         <li>
-                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <a href="#" class="photo"><img src="assets/images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
                             <h6><a href="#">Agam facilisis</a></h6>
                             <p>1x - <span class="price">$40.00</span></p>
                         </li>
@@ -219,7 +219,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -241,7 +241,7 @@
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -263,7 +263,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -285,7 +285,7 @@
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -307,7 +307,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -329,7 +329,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -351,7 +351,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -373,7 +373,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -395,7 +395,7 @@
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                                    <img src="assets/images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -422,7 +422,7 @@
                                                         <div class="type-lb">
                                                             <p class="new">New</p>
                                                         </div>
-                                                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                        <img src="assets/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -454,7 +454,7 @@
                                                         <div class="type-lb">
                                                             <p class="sale">Sale</p>
                                                         </div>
-                                                        <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                                        <img src="assets/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -486,7 +486,7 @@
                                                         <div class="type-lb">
                                                             <p class="sale">Sale</p>
                                                         </div>
-                                                        <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                                        <img src="assets/images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
                                                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -515,7 +515,7 @@
                         </div>
                     </div>
                 </div>
-                @section('sidebar')
+                
 				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
                     <div class="product-categori">
                         <div class="search-product">
@@ -573,18 +573,19 @@
                         </div>
                     </div>
                 </div>
-                @endsection
+                
             </div>
         </div>
     </div>
     <!-- End Shop Page -->
-
+    @endsection
+@section('footer')
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-01.jpg" alt="" />
+                    <img src="assets/images/instagram-img-01.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -592,7 +593,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-02.jpg" alt="" />
+                    <img src="assets/images/instagram-img-02.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -600,7 +601,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-03.jpg" alt="" />
+                    <img src="assets/images/instagram-img-03.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -608,7 +609,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-04.jpg" alt="" />
+                    <img src="assets/images/instagram-img-04.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -616,7 +617,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="assets/images/instagram-img-05.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -624,7 +625,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-06.jpg" alt="" />
+                    <img src="assets/images/instagram-img-06.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -632,7 +633,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-07.jpg" alt="" />
+                    <img src="assets/images/instagram-img-07.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -640,7 +641,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-08.jpg" alt="" />
+                    <img src="assets/images/instagram-img-08.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -648,7 +649,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-09.jpg" alt="" />
+                    <img src="assets/images/instagram-img-09.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -656,7 +657,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="assets/images/instagram-img-05.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -665,8 +666,7 @@
         </div>
     </div>
     <!-- End Instagram Feed  -->
-@endsection
-@section('footer')
+
     <!-- Start Footer  -->
     <footer>
         <div class="footer-main">
@@ -751,31 +751,12 @@
         </div>
     </footer>
     <!-- End Footer  -->
-    @endsection
+   
     <!-- Start copyright  -->
     <div class="footer-copyright">
         <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
             <a href="https://html.design/">html design</a></p>
     </div>
     <!-- End copyright  -->
-
-    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/inewsticker.js"></script>
-    <script src="js/bootsnav.js."></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
+@endsection
+   

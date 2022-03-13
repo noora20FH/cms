@@ -470,9 +470,11 @@
                                                 <div class="why-text full-width">
                                                     <h4>Lorem ipsum dolor sit amet</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
-                                                    <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                        sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                        Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
+
+                                                    @foreach ($shops as $shop)
+                                                    <p>{{$shops->content}} </p>
+                                                    @endforeach
+                                                    
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
                                             </div>

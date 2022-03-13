@@ -102,3 +102,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 // week3
 Route::view('/', 'shop');
 
+
+//Shop
+Route::get('/shop', [App\Http\Controllers\ShopController::class, 'shopIndex'])->name('shopIndex');

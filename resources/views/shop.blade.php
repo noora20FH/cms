@@ -468,13 +468,16 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    @foreach ($shops as $shop)
+                                                    <h4>{{$shop->name}}</h4>
+                                                    @endforeach
+
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
 
                                                     @foreach ($shops as $shop)
-                                                    <p>{{$shops->content}} </p>
+                                                    <p>{{$shop->content}} </p>
                                                     @endforeach
-                                                    
+
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
                                             </div>

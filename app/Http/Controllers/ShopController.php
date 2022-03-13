@@ -15,7 +15,7 @@ class ShopController extends Controller
         #$shops = Shop::all();
         #return view('shop', compact('shops'));
         
-        $shops = DB::select('select content from shops where id = ?', [1]);
+        $shops = DB::select('select name,content from shops where id = ?', [1]);
         return view('shop', ['shops' => $shops]);
     }
     public function showShop(){

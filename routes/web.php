@@ -100,9 +100,14 @@ Auth::routes();
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // week3
-//Route::view('/', 'shop');
+//Route::view('/', 'welcome');
 
 
 
 //Shop
 //Route::get('/shop', [App\Http\Controllers\ShopController::class, 'shopIndex'])->name('shopIndex');
+
+
+//Jobsheet6
+
+Route::view('/home', 'home');

@@ -97,11 +97,12 @@ Route::get('/about-us', function(){
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // week3
-Route::view('/', 'shop');
+//Route::view('/', 'shop');
+
 
 
 //Shop
-Route::get('/shop', [App\Http\Controllers\ShopController::class, 'shopIndex'])->name('shopIndex');
+//Route::get('/shop', [App\Http\Controllers\ShopController::class, 'shopIndex'])->name('shopIndex');

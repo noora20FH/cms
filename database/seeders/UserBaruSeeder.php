@@ -19,7 +19,7 @@ class UserBaruSeeder extends Seeder
             'username' => 'admin',
             'name' => 'New Administrator',
             'email'=> 'admin.baru@gmail.com',
-            'password'=>Hash::make('password'),
+            'password'=> Hash::make('password'),
 
         ]);
     }

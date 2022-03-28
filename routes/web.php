@@ -110,4 +110,4 @@ Auth::routes();
 
 //Jobsheet6
 //Route::view('/', 'login');
-Route::view('/home', 'home');
+//Route::view('/home', 'home');
